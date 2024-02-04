@@ -29,9 +29,13 @@ http://localhost:3000/profile
 https://www.npmjs.com/package/json-server
 
 # Hands-on with Fly.io
+https://blog.naver.com/mini_crane_/223343736395 주소에 훨씬 더 보기 쉽게 작성해 놓았으니 참고하자.
+
 ```
-세상에는 수많은 서버와 언어가 있다. 그중 무료로 서버 구축에 대해 이해하기 쉬운 서비스(Fly)가 있으니 함께 작동시켜보자. (Fly.io는 클라우드 기반의 플랫폼으로, 애플리케이션을 전 세계의 여러 지역에 분산시키고 더 빠르게 배포할 수 있게 도와주는 도구다)
-사용방법을 적는 이유는, 여기서 하라는 대로 수행했다가는 연습삼아 한 프로젝트가 통장의 돈이 빼가는 아쉬움을 느낄 수 있기 때문이다. 하고 나서 좋았다면 회사에 기부하자
+세상에는 수많은 서버와 언어가 있다. 그중 무료로 서버 구축에 대해 이해하기 쉬운 서비스(Fly)가 있으니 함께 작동시켜보자.
+(Fly.io는 클라우드 기반의 플랫폼으로, 애플리케이션을 전 세계의 여러 지역에 분산시키고 더 빠르게 배포할 수 있게 도와주는 도구다)
+사용방법을 적는 이유는, 여기서 하라는 대로 수행했다가는 연습삼아 한 프로젝트가 통장의 돈이 빼가는 아쉬움을 느낄 수 있기 때문이다.
+하고 나서 좋았다면 회사에 기부하자.
 
 필자는 설치부터 실행까지 공식문서를 참고했다. Hands-on with Fly.io를 따르면 서비스를 실제로 사용하면서 경험하거나 실험해볼 수 있다.
 https://fly.io/docs/hands-on/install-flyctl/
@@ -99,7 +103,8 @@ export CLASS_PATH=$JAVA_HOME/lib:$CLASS_PATH
 #fly
 export FLYCTL_INSTALL="/home/wsl/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
-이러한 문제가 발생하는 이유는 필자가 많은 shell (bashShell 등) 중에 zShell을 사용하고 있기 때문이다. fly 경로를 지정하지 않았기 때문에 설정 파일에 경로 지정이 필요하다.
+이러한 문제가 발생하는 이유는 필자가 많은 shell (bashShell 등) 중에 zShell을 사용하고 있기 때문이다.
+fly 경로를 지정하지 않았기 때문에 설정 파일에 경로 지정이 필요하다.
 
 5) Launch하기
 사진 설명을 입력하세요.
